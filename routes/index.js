@@ -15,7 +15,8 @@ router.post('/invite', function(req, res) {
         form: {
           email: req.body.email,
           token: config.slacktoken,
-          set_active: true
+          set_active: true,
+          first_name: req.body.name
         }
       }, function(err, httpResponse, body) {
         // body looks like:
