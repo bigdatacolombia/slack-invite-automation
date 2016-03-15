@@ -8,7 +8,7 @@ html,body{
 margin:0;
 padding:0;
 font-family: 'Lato', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(http://dailygenius.com/wp-content/uploads/2014/09/data.jpg) center top no-repeat;
 background-size: cover;
 height: 100%;
 width: 100%;
